@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#2a2f36"/>
+      <stop offset="0.5" stop-color="#15181c"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </radialGradient>
+    <radialGradient id="spot" cx="0.5" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#d8e0ea"/>
+      <stop offset="1" stop-color="#89AACC"/>
+    </radialGradient>
+  </defs>
+  <rect width="320" height="320" fill="url(#bg)"/>
+  <circle cx="130" cy="110" r="90" fill="url(#spot)" opacity="0.9"/>
+  <circle cx="130" cy="110" r="120" fill="none" stroke="#4E85BF" stroke-width="1" opacity="0.3"/>
+  <circle cx="130" cy="110" r="150" fill="none" stroke="#4E85BF" stroke-width="0.8" opacity="0.15"/>
+  <!-- Table -->
+  <rect x="60" y="260" width="200" height="6" rx="3" fill="#0d0d0d"/>
+  <rect x="80" y="266" width="8" height="40" fill="#0d0d0d"/>
+  <rect x="232" y="266" width="8" height="40" fill="#0d0d0d"/>
+  <g fill="#ffffff" opacity="0.06">
+    <circle cx="250" cy="60" r="1.5"/><circle cx="60" cy="220" r="1"/>
+    <circle cx="280" cy="200" r="1"/>
+  </g>
+</svg>
